@@ -1,3 +1,3 @@
 # odin-recipes
-Part of The Odin Project
-3 Recipes using very basic structure
+Part of The Odin Project<br>
+Two recipes using very basic structure and styling
