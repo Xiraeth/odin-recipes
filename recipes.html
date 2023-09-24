@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="main.css" />
+    <title>Recipes</title>
+    <link rel="stylesheet" href="recipes.css" />
     <script
       src="https://kit.fontawesome.com/00de2a7224.js"
       crossorigin="anonymous"
@@ -31,15 +31,24 @@
     </nav>
 
     <div class="main">
-      <h1>Hello and welcome to my page!</h1>
-      <p>
-        This is my first project from 'The Odin Project' re-imagined. I know
-        it's not much, I'm just trying to polish my skills over the
-        fundamentals.
-      </p>
-      <p>
-        Use the links on top to navigate the recipes or check out my Github.
-      </p>
+      <h1>These are the recipes on this page</h1>
+      <div class="recipes-grid">
+        <div class="grid-item item--1">
+          <a href="/recipes/chicken-with-rice.html">
+            <img
+              src="/images/chicken-with-rice.webp"
+              alt="Chicken with rice dish"
+            />
+            <p>Chicken Marsala over White Rice</p>
+          </a>
+        </div>
+        <div class="grid-item item--2">
+          <a href="/recipes/mashed-potatoes.html">
+            <img src="/images/mashed-potatoes.webp" alt="Mashed potatoes" />
+            <p>Mashed potatoes</p>
+          </a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
